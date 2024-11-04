@@ -17,6 +17,11 @@ name = "typst"
 path = "src/main.rs"
 doc = false
 
+[lib]
+name = "typstlib"
+path = "src/lib.rs"
+doc = false
+
 [dependencies]
 typst = { workspace = true }
 typst-eval = { workspace = true }
